@@ -1,14 +1,13 @@
         body{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background-color:rgb(168, 168, 244);
-        color:white;
+        color:rgb(3, 3, 3);
         margin: 0;
         padding: 25px;
     }
     img{
         height:150px;
         width:150px;
-        border-radius:50%;
         border:2px solid #0044ff;
         display: center;
         margin: 4px 2px;
@@ -47,7 +46,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     nav ul li a{
-    color: white;
+    color: rgb(3, 3, 3);
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
@@ -58,7 +57,7 @@
     nav ul li a:hover,
     nav ul li a.active
     {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(8, 8, 8, 0.2);
     }
     /*-Home-*/
     #home{
@@ -68,4 +67,11 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    }
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
     }
