@@ -25,11 +25,11 @@
         padding:0px;
     }
     footer{
-        background-color:rgb(54, 142, 220);
+        background-color:rgb(168, 168, 244);
         color:white;
-        padding: 10px;
-        text-align: center;
-        font-size:8px;
+        padding: 1px;
+        text-align: left;
+        font-size:12px;
     }
     nav ul{
     list-style: none;
@@ -41,7 +41,7 @@
     align-items: center;
     gap: 10px;
     padding: 15px;
-    background-color: #f8f9fa;
+    background-color: rgb(168, 168, 244);
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -61,7 +61,7 @@
     }
     /*-Home-*/
     #home{
-    background-color: white;
+    background-color: rgb(168, 168, 244);
     }
     .aboutContent{
     display: flex;
@@ -74,4 +74,63 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    }
+    /*-Contact Us-*/
+    .infoGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); 
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .infoItem{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        background-color: rgb(168, 168, 244);
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .infoLabel{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        background-color: rgb(168, 168, 244);
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .infoItem:hover
+    {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .info{
+        font-weight: 600;
+        color: black;
+    }
+    .info i{
+        margin-right: 5px;
+    }
+    .infoLabel span{
+        font-size: 1.1rem;
+        font-weight: 600;
+        display: flex;
+        align-items: left; 
+    }
+    .infoItem span{
+        font-size: 1.1rem;
+        font-weight: 600;
+        display: flex;
+        align-items: left; 
+    }
+    .infoContent{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 15fr));
+        gap: 30px;
+    }
+    .infoGeneral{
+        font-size: 16px;
+        font-weight: normal;
+        color: #333; /*-Text color-*/
     }
